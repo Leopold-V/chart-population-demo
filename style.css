@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+svg {
+    background-color: #2a2a2e;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    padding-bottom: 2rem;
+}
+
+#tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    font-size: .7rem;
+    border-radius: 5px;
+    padding: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#country_name {
+    padding: .3rem;
+}
+
+#country_population {
+    padding: .3rem;
+}
+
+.bar {
+    transition: .2s all;
+}
